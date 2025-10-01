@@ -1,0 +1,23 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 315532800,
+        "narHash": "sha256-LzU/KC9vXI1UeKEjbz0bq0OIdv36UJpz88Sfeg991UQ=",
+        "type": "tarball",
+        "url": "https://mirrors.cernet.edu.cn/nix-channels/nixpkgs-unstable/nixexprs.tar.xz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://mirrors.cernet.edu.cn/nix-channels/nixpkgs-unstable/nixexprs.tar.xz"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

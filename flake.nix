@@ -14,7 +14,7 @@
     devShells.x86_64-linux.default = (pkgs.buildFHSEnv (base // {
         name = "rCore-dev";
         targetPkgs = pkgs: (base.targetPkgs pkgs) ++ (with pkgs; [
-          qemu_full cargo-binutils gdb gdbgui
+          qemu cargo-binutils gdb gdbgui
         ]);
         runScript = "fish";
       })).env;
